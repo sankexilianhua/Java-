@@ -1,17 +1,20 @@
-package base;
+package com.Ryson.operator;
+
+import java.util.Date;
 
 public class Demo1 {
     public static void main(String[] args) {
-        String student = "Ryson";
-        String $student = "Ryson";
-        String _student = "Ryson";
-        String Student = "Ryson";
-        //String 1student = "Ryson";
-        //String #student = "Ryson";
-        String _="name";
-        //String _#="name";
-        //String class="name";
-        String 王者荣耀 = "百星王者";
-        System.out.println(王者荣耀);
+        //二元运算符
+        //Ctrl+D:复制当前行到下一行
+        int a=10;
+        int b=20;
+        int c=25;
+        int d=25;
+
+
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
     }
 }
